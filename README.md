@@ -7,8 +7,8 @@ This guide will help you set up and run your Next project with a mock backend us
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Ahmad-code077/MensWear.git
-cd MensWear
+git clone https://github.com/Ahmad-code077/StepInShoes.git
+cd StepInShoe
 ```
 
 ### 2. Install dependencies

@@ -21,61 +21,62 @@ interface ShoeListProps {
 
 const ShoeList = ({ shoes, refreshShoes }: ShoeListProps) => {
   const [selectedShoe, setSelectedShoe] = useState<Shoe | null>(null);
+
   return (
     <div className='py-6'>
       {shoes.length > 0 ? (
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8'>
-          {shoes.map((shoe) => (
-            <div
-              key={shoe.id}
-              className='bg-card text-foreground rounded-2xl shadow-lg p-4 border-primary border'
-            >
-              <div className='flex justify-center mb-4 h-44 w-[80%] mx-auto'>
-                <Image
-                  src={shoe.image}
-                  alt={shoe.name}
-                  width={200}
-                  height={200}
-                  className='rounded-lg object-cover w-full h-full'
-                  unoptimized
-                />
-              </div>
-              <h3 className='text-2xl font-semibold text-center mb-2'>
-                {shoe.name}
-              </h3>
+        <div className='overflow-x-auto'>
+          <table className='min-w-full table-auto'>
+            <thead>
+              <tr className='bg-secondary'>
+                <th className='px-4 py-2 text-left text-foreground'>Image</th>
+                <th className='px-4 py-2 text-left text-foreground'>Shoe</th>
+                <th className='px-4 py-2 text-left text-foreground'>Price</th>
+                <th className='px-4 py-2 text-left text-foreground'>Size</th>
+                <th className='px-4 py-2 text-left text-foreground'>Color</th>
+                <th className='px-4 py-2 text-left text-foreground'>
+                  Availability
+                </th>
+                <th className='px-4 py-2 text-left text-foreground'>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {shoes.map((shoe) => (
+                <tr key={shoe.id} className='border-b border-border'>
+                  <td className='px-4 py-2 flex justify-center'>
+                    <Image
+                      src={shoe.image}
+                      alt={shoe.name}
+                      width={100}
+                      height={100}
+                      className='rounded-full'
+                      unoptimized
+                    />
+                  </td>
+                  <td className='px-4 py-2'>{shoe.name}</td>
+                  <td className='px-4 py-2'>PKR {shoe.price}</td>
+                  <td className='px-4 py-2'>{shoe.size.join(', ')}</td>
+                  <td className='px-4 py-2'>{shoe.color}</td>
+                  <td className='px-4 py-2'>
+                    {shoe.availability ? 'Available' : 'Not Available'}
+                  </td>
+                  <td className='px-4 py-2'>
+                    <button
+                      onClick={() => setSelectedShoe(shoe)}
+                      className='px-4 py-2 bg-primary text-white rounded-lg hover:bg-secondary-dark focus:outline-none focus:ring-2 focus:ring-secondary-dark focus:ring-offset-2 transition-all'
+                    >
+                      Update
+                    </button>
 
-              <div className='flex justify-between mt-4'>
-                {shoe.size.length > 0 && (
-                  <span className='font-semibold'>
-                    Size: {shoe.size.join(', ')}
-                  </span>
-                )}
-                <span className='font-semibold'>PKR {shoe.price}</span>
-              </div>
-              <div className='flex justify-between mt-2'>
-                <span className='font-semibold'>Color: {shoe.color}</span>
-                <span
-                  className={`font-semibold ${
-                    shoe.availability ? 'text-green-500' : 'text-red-500'
-                  }`}
-                >
-                  {shoe.availability ? 'Available' : 'Not Available'}
-                </span>
-              </div>
-              <div className='mt-4 flex justify-between'>
-                <button
-                  onClick={() => setSelectedShoe(shoe)}
-                  className='px-4 py-2 bg-primary text-white rounded-lg hover:bg-secondary-dark transition-all'
-                >
-                  Update
-                </button>
-                <DeleteShoe
-                  shoeId={shoe.id}
-                  refreshShoes={refreshShoes} // Updated to refreshShoes
-                />
-              </div>
-            </div>
-          ))}
+                    <DeleteShoe
+                      shoeId={shoe.id}
+                      refreshShoes={refreshShoes} // Updated to refreshShoes
+                    />
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       ) : (
         <p className='text-gray-600 text-center'>No Shoes available.</p>
