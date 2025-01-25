@@ -1,0 +1,244 @@
+{
+  "fashion": [
+    {
+      "id": "1",
+      "name": "Classic White Sneakers",
+      "price": 1500,
+      "description": "A timeless classic white sneakers for both formal and casual occasions.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "White",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/389b709e-5102-4e55-aa5d-07099b500831/BLAZER+MID+%2777+VNTG.png"
+    },
+    {
+      "id": "3",
+      "name": "Leather Running Shoes",
+      "price": 8000,
+      "description": "Premium quality leather running shoes for an elegant and active lifestyle.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Black",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4637d662-4732-4723-9cda-4d1d53091af6/NIKE+ZOOM+VOMERO+5.png"
+    },
+    {
+      "id": "4",
+      "name": "Casual Sneakers",
+      "price": 3500,
+      "description": "Lightweight and comfortable casual sneakers perfect for everyday wear.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Gray",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fcd47476-18fc-488c-8a84-d583a59de563/AIR+MAX+DN+QS.png"
+    },
+    {
+      "id": "5",
+      "name": "Formal Dress Shoes",
+      "price": 2500,
+      "description": "Elegant formal dress shoes for office and evening events.",
+      "size": [
+        "S",
+        "M"
+      ],
+      "color": "Black",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a684262e-3a11-4c65-822f-fe2644491308/AIR+JORDAN+1+LOW+SE+%28GS%29.png"
+    },
+    {
+      "id": "6",
+      "name": "Comfortable Slip-Ons",
+      "price": 1200,
+      "description": "High-quality slip-ons for a comfortable and casual fit.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Navy Blue",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/175ef854-42a0-4d44-ae67-29042fdd5163/NIKE+PRECISION+VII+EASYON.png"
+    },
+    {
+      "id": "7",
+      "name": "Winter Boots",
+      "price": 3000,
+      "description": "Warm and cozy boots designed for winter activities.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Gray",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/013c4cda-765b-429e-b9cc-0de1725e0720/W+REACTX+INFINITY+RUN+4+PRM.png"
+    },
+    {
+      "id": "8",
+      "name": "Sports Running Shoes",
+      "price": 800,
+      "description": "Breathable sports shoes perfect for workouts and outdoor activities.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Black",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5c05d12c-753f-4072-9f05-61e323dd8ec6/NIKE+MOTIVA.png"
+    },
+    {
+      "id": "9",
+      "name": "Woolen Boots",
+      "price": 4000,
+      "description": "Soft woolen boots to keep your feet warm and stylish.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Maroon",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a684262e-3a11-4c65-822f-fe2644491308/AIR+JORDAN+1+LOW+SE+%28GS%29.png"
+    },
+    {
+      "id": "10",
+      "name": "Cotton Slip-On Shoes",
+      "price": 1500,
+      "description": "Traditional cotton slip-on shoes for casual and festive wear.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "White",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1d8cdb0f-caa0-42e6-9868-e30c22fee672/AIR+MAX+90+%28GS%29.png"
+    },
+    {
+      "id": "11",
+      "name": "Graphic Sneakers",
+      "price": 1000,
+      "description": "Trendy graphic sneakers for a casual and street style look.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Black",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d63002c9-9640-4041-a4b7-2575410ee2be/AIR+FORCE+1+%28GS%29.png"
+    },
+    {
+      "id": "12",
+      "name": "Chinos Sneakers",
+      "price": 2000,
+      "description": "Stylish sneakers for a smart-casual look.",
+      "size": [
+        "M",
+        "L"
+      ],
+      "color": "Beige",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c0b535c5-aa51-4277-bc6d-9f77fcdc1ec5/NIKE+AIR+FORCE+1+SP.png"
+    },
+    {
+      "id": "13",
+      "name": "Denim Sneakers",
+      "price": 4500,
+      "description": "Trendy denim sneakers for all seasons.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Blue",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/46db199f-ad8c-4906-baab-ca453099355a/AIR+MAX+SOLO+MICHIGAN.png"
+    },
+    {
+      "id": "14",
+      "name": "Running Shoes",
+      "price": 4000,
+      "description": "Durable and lightweight running shoes for daily runs.",
+      "size": [
+        "L",
+        "XL"
+      ],
+      "color": "White",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ae39d4c4-202d-4a2b-9bc8-c3b5b1a90e79/W+NIKE+ZOOM+AIR+FIRE.png"
+    },
+    {
+      "id": "15",
+      "name": "Formal Dress Shoes",
+      "price": 7000,
+      "description": "Tailored formal dress shoes for professional settings.",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Navy Blue",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/24cf28e3-0e4f-4be5-af37-41ef331d8007/custom-nike-air-force-1-low-by-you-shoes.png"
+    },
+    {
+      "id": "16",
+      "name": "Plain Sneakers",
+      "price": 800,
+      "description": "Comfortable plain sneakers for casual wear.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": "Gray",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c0b535c5-aa51-4277-bc6d-9f77fcdc1ec5/NIKE+AIR+FORCE+1+SP.png"
+    },
+    {
+      "id": "1736721361767",
+      "name": "Jeans Sneakers",
+      "price": 699,
+      "description": "A good pair of jeans sneakers for casual outings.",
+      "size": [
+        "M",
+        "XL",
+        "S"
+      ],
+      "color": "Black",
+      "availability": true,
+      "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/c0c9ab2b-8bd0-40b3-a3fd-d58d861e4c23/custom-nike-kd-16-by-you.png"
+    },
+    {
+      "id": "1737842214618",
+      "name": "Sporty Shoes",
+      "price": 98098098,
+      "description": "Stylish sporty shoes for an active lifestyle.",
+      "size": [
+        "S",
+        "M"
+      ],
+      "color": "Red",
+      "availability": true,
+      "image": "https://target.scene7.com/is/image/Target/GUEST_0d38074d-2d35-4999-badb-6591aa1ead08?wid=1200&hei=1200&qlt=80&fmt=webp"
+    }
+  ]
+}
