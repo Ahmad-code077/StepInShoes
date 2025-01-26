@@ -51,7 +51,7 @@ export default function LoginPage() {
         className='space-y-4 w-[90%] md:w-[42%] border border-primary rounded-md p-6 '
       >
         <h1 className='text-lg text-center sm:text-2xl font-bold mb-6'>
-          Enter to start your charge!{' '}
+          Login{' '}
         </h1>
         <div>
           <Label htmlFor='email'>Email</Label>
